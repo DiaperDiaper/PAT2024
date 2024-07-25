@@ -1,0 +1,134 @@
+body{
+    font-family: Helvetica;
+    font-size: large;
+        background-color: #29354f;
+        color: #FEFFFF;;
+    }
+
+     /* Basic styling for the navigation bar */
+nav {
+    background-color: #7e9639;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Hover effect */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for dropdown links */
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+  }
+
+
+  /* Style for footer */
+  footer {
+    clear: both; 
+    text-align: center; 
+    padding: 10px; 
+    background-color: #ee7416; /* Background color for the footer */
+}
+
+/* Style the "Return to Top" button */
+.return-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF; /* Change to your desired button color */
+  color: #fff; /* Change to your desired text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.slider {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+table{
+  background-color:  #3AAFA9;
+}

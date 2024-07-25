@@ -1,0 +1,175 @@
+body{
+font-family: Helvetica;
+font-size: large;
+    background-color: #29354f;
+    color: #FEFFFF;;
+}
+
+
+.slider {
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .slider-inner {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider-inner img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: #ccc;
+  }
+  
+  .prev {
+    order: 1;
+  }
+  
+  .next {
+    order: 3;
+  }
+
+  /* Basic styling for the navigation bar */
+nav {
+  background-color: #7e9639;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Hover effect */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style for dropdown links */
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+}
+
+/* Style for the download button */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+  height: 100px;
+  padding-top: 15px;
+  padding-left: 15px;
+  color:#fff; 
+  background-color: #ee7416;
+}
+
+
+/* Style for the image slider */
+.image-slider {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.prev-slide, .next-slide {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-slide:hover, .next-slide:hover {
+  background-color: #555;
+}
+
+.prev-slide {
+  float: left;
+}
+
+.next-slide {
+  float: right;
+}
+
+/* Style the "Return to Top" button */
+.return-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF; /* Change to your desired button color */
+  color: #fff; /* Change to your desired text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
